@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 138 138">
+    <g data-name="Apex (Mitral Area)">
+        <text data-name="Apex(Mitral area)" transform="translate(94 130)" style="font-size:14px;fill:#0a090b;font-family:Poppins-SemiBold,Poppins;font-weight:600"><tspan x="-17.857" y="0">Apex</tspan><tspan x="-45.57" y="15">(Mitral area)</tspan></text>
+        <g data-name="Ellipse 27" style="fill:#6f8498;stroke:#fff;stroke-width:2px">
+            <circle cx="13" cy="13" r="13" style="stroke:none"/>
+            <circle cx="13" cy="13" r="12" style="fill:none"/>
+        </g>
+        <text data-name="3" transform="translate(13 18)" style="fill:#fff;font-family:Poppins-Medium,Poppins;font-weight:500;font-size:14px"><tspan x="-4.158" y="0">3</tspan></text>
+        <path data-name="Path 534" d="m-34.114-4.027 118.246 5.61" transform="rotate(-135 58.486 24.88)" style="stroke-linecap:round;stroke-linejoin:round;stroke-width:4px;fill:#febebc;stroke:#ffbebb"/>
+        <path d="M14.476 12.084 2.33.384a1.4 1.4 0 0 0-1.93 0 1.278 1.278 0 0 0 0 1.857l11.182 10.771L.4 23.784a1.279 1.279 0 0 0 0 1.858 1.4 1.4 0 0 0 1.931 0l12.146-11.7a1.292 1.292 0 0 0-.001-1.858z" transform="rotate(-135 18.885 15.163)" style="stroke-width:.5px;fill:#febebc;stroke:#ffbebb"/>
+    </g>
+</svg>

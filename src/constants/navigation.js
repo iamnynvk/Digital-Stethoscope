@@ -1,0 +1,17 @@
+export const NAVIGATION = {
+  AUTH_NAVIGATOR: 'AuthNavigator',
+  APP_NAVIGATOR: 'AppNavigator',
+  ONBOARDING: 'Onboarding',
+  LOGIN: 'Login',
+  OTP_VERIFICATION: 'OTPVerification',
+  REGISTER_USER_DETAIL: 'RegisterUserDetail',
+  UPDATE_PROFILE: 'UpdateProfile',
+  ADD_MEMBER: 'ADD_MEMBER',
+  HOME: 'Home',
+  RECORD_VITALS: 'RecordVitals',
+  PROFILE: 'Profile',
+  WEB_SCREEN: 'WebScreen',
+  VIEW_ALL_FILE: 'ViewAllFile',
+  MAP: 'Map',
+  SETTING: 'Setting',
+};

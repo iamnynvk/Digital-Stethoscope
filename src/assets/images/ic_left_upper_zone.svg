@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="175" height="127.943" viewBox="0 0 175 127.943">
+    <g data-name="Left Upper Zone">
+        <text data-name="Left Upper Zone" transform="translate(45 -5)" style="font-size:14px;fill:#0a090b;font-family:Poppins-SemiBold,Poppins;font-weight:600"><tspan x="-35.847" y="0">Left Upper</tspan><tspan x="-17.444" y="15">Zone</tspan></text>
+        <g data-name="Ellipse 28" transform="translate(149 101.943)" style="fill:#6f8498;stroke:#fff;stroke-width:2px">
+            <circle cx="13" cy="13" r="13" style="stroke:none"/>
+            <circle cx="13" cy="13" r="12" style="fill:none"/>
+        </g>
+        <text data-name="1" transform="translate(162 119.943)" style="fill:#fff;font-family:Poppins-Medium,Poppins;font-weight:500;font-size:14px"><tspan x="-2.45" y="0">1</tspan></text>
+        <path data-name="Path 540" d="M-53.8 8.965 72.822 0" transform="rotate(45 -16.328 151.777)" style="stroke-linecap:round;stroke-linejoin:round;stroke-width:4px;stroke:#ffbebb;fill:none"/>
+        <path d="M14.476 12.084 2.33.384a1.4 1.4 0 0 0-1.93 0 1.278 1.278 0 0 0 0 1.857l11.182 10.771L.4 23.784a1.279 1.279 0 0 0 0 1.858 1.4 1.4 0 0 0 1.931 0l12.146-11.7a1.292 1.292 0 0 0-.001-1.858z" transform="rotate(45 -31.218 232.106)" style="fill:#ffbebb;stroke-width:.5px;stroke:#ffbebb"/>
+    </g>
+</svg>

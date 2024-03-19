@@ -1,0 +1,85 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name HopsDevicesFramework
+import AVFoundation
+import CoreBluetooth
+import Foundation
+@_exported import HopsDevicesFramework
+import Swift
+import UIKit
+@objc @_inheritsConvenienceInitializers public class ConnectionService : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension ConnectionService : CoreBluetooth.CBCentralManagerDelegate {
+  @objc dynamic public func centralManagerDidUpdateState(_ central: CoreBluetooth.CBCentralManager)
+}
+@_inheritsConvenienceInitializers @objc public class DeviceData : ObjectiveC.NSObject {
+  @objc public var stethoscopeData: HopsDevicesFramework.StethoscopeData
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class StethoscopeData : ObjectiveC.NSObject {
+  @objc public var currentAmplitudeValue: Swift.String?
+  @objc public var filePath: Swift.String?
+  @objc public var fileDurationInSeconds: Swift.String?
+  @objc public var currentAveragePower: Swift.String?
+  @objc public var currentPeakPower: Swift.String?
+  @objc public var data: [Swift.String : Any]?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(BleManager) public class BleManager : ObjectiveC.NSObject {
+  @objc public static let shared: HopsDevicesFramework.BleManager
+  @objc final public let stethoscope: HopsDevicesFramework.StethoscopeService
+  @objc override dynamic public init()
+  @objc public func setupDevice(hopsDevice: HopsDevicesFramework.HopsDevice)
+  @objc public func getOperationStatusName(operationStatus: HopsDevicesFramework.OperationStatus) -> Swift.String
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class StethoscopeService : HopsDevicesFramework.ConnectionService {
+  @objc public func isRecoderRunning() -> Swift.Bool
+  @objc public func setAudioFilterServerURL(audioFilterServerURL: Swift.String, onMessage: ((HopsDevicesFramework.HopsDevice, HopsDevicesFramework.OperationStatus, Any?) -> Swift.Void)?)
+  @objc public func recordStartData(onData: ((HopsDevicesFramework.HopsDevice, HopsDevicesFramework.DeviceData) -> Swift.Void)?, onMessage: ((HopsDevicesFramework.HopsDevice, HopsDevicesFramework.OperationStatus, Any?) -> Swift.Void)?, recoderTimeInSecond: Swift.Int)
+  @objc public func recordStopData(onData: ((HopsDevicesFramework.HopsDevice, HopsDevicesFramework.DeviceData) -> Swift.Void)?, onMessage: ((HopsDevicesFramework.HopsDevice, HopsDevicesFramework.OperationStatus, Any?) -> Swift.Void)?)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public enum HopsDevice : Swift.Int {
+  case STETHOSCOPE
+  public func name() -> Swift.String
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum OperationStatus : Swift.Int {
+  case BLE_NOT_SUPPORTED
+  case BLE_NOT_ENABLED
+  case BLE_PERMISSION_DENIED
+  case DEVICE_CONNECTED
+  case DEVICE_DISCONNECTED
+  case DEVICE_NOT_FOUND
+  case RECODER_NOT_RUNNING
+  case DEVICE_STETHOSCOPE_NOT_SETUP
+  case MICROPHONE_PERMISSION_DENIED
+  case INVALID_RECORDER_TIME
+  case STOP_RECORDER_WITH_TIME
+  case INVALID_AUDIO_FILTER_SERVER_URL
+  public func name() -> Swift.String
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension UIViewController {
+  public class func currentViewController(_ base: UIKit.UIViewController? = UIApplication.shared.windows.first { $0.isKeyWindow }?.rootViewController) -> UIKit.UIViewController?
+}
+extension HopsDevicesFramework.HopsDevice : Swift.Equatable {}
+extension HopsDevicesFramework.HopsDevice : Swift.Hashable {}
+extension HopsDevicesFramework.HopsDevice : Swift.RawRepresentable {}
+extension HopsDevicesFramework.OperationStatus : Swift.Equatable {}
+extension HopsDevicesFramework.OperationStatus : Swift.Hashable {}
+extension HopsDevicesFramework.OperationStatus : Swift.RawRepresentable {}

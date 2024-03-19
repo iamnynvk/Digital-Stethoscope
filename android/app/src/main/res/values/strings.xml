@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name" translatable="false">Hops Stetho</string>
+    <string name="device_not_found" translatable="false">Device Not Found.</string>
+    <string name="device_connecting" translatable="false">Device Connecting.</string>
+    <string name="device_connected" translatable="false">Device Connected.</string>
+    <string name="device_disconnected" translatable="false">Device Disconnected.</string>
+    <string name="scanning_device" translatable="false">Scanning Device.</string>
+    <string name="scanning" translatable="false">Scanning…</string>
+    <string name="bluetooth_is_not_enabled" translatable="false">Bluetooth is not enable.</string>
+    <string name="ble_not_supported" translatable="false">BLE not supported.</string>
+    <string name="location_permission_not_given" translatable="false">Location permission not given.</string>
+    <string name="location_is_not_on_of_your_phone" translatable="false">Location is not on of your phone.</string>
+    <string name="permission_denied_never_ask_again_dialog_message" translatable="false">We noticed you have disabled some permission. You can grant it in the application settings.</string>
+    <string name="permission_denied_dialog_message" translatable="false">Without permissions the app is unable to record vitals.</string>
+    <string name="label_Ok" translatable="false">OK</string>
+    <string name="label_cancel" translatable="false">Cancel</string>
+    <string name="label_setting" translatable="false">App Settings</string>
+    <string name="permission_refused_message" translatable="false">User refused to enable permission</string>
+    <string name="bluetooth_refused_message" translatable="false">User refused to enable bluetooth</string>
+</resources>

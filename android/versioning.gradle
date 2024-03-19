@@ -1,0 +1,20 @@
+ext.versionMajor = 1
+ext.versionMinor = 0
+ext.versionPatch = 2
+ext.versionClassifier = null
+ext.isSnapshot = false
+
+ext.generateVersionCode = { ->
+    return ext.versionMajor * 10000 + ext.versionMinor * 100 + ext.versionPatch
+}
+
+ext.generateVersionName= {->
+    String versionName = "${ext.versionMajor}.${ext.versionMinor}.${ext.versionPatch}"
+    if (ext.versionClassifier == null && ext.isSnapshot) {
+        ext.versionClassifier = "beta"
+    }
+    if (ext.versionClassifier != null) {
+        versionName += "-" + ext.versionClassifier
+    }
+    return versionName
+}

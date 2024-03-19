@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <style>
+            .cls-2{stroke:#fff;stroke-width:2px;fill:none;stroke-linecap:round;stroke-linejoin:round}
+        </style>
+    </defs>
+    <g id="App_Profile_Picture" data-name="App Profile Picture" transform="translate(-238 -260)">
+        <g id="Rectangle_392" data-name="Rectangle 392" transform="translate(240 262)" style="stroke:#fff;stroke-width:2px;fill:#8b9cac">
+            <rect width="44" height="44" rx="22" style="stroke:none"/>
+            <rect x="-1" y="-1" width="46" height="46" rx="23" style="fill:none"/>
+        </g>
+        <g id="_2561351_camera_icon" data-name="2561351_camera_icon" transform="translate(250 272)">
+            <path id="Path_2081" data-name="Path 2081" class="cls-2" d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+            <circle id="Ellipse_67" data-name="Ellipse 67" class="cls-2" cx="4" cy="4" r="4" transform="translate(8 9)"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+JKS file: hops-stetho.jks
+
+Store Password: Hops@123
+Key Alias: Hops
+Key Password: Hops@123
+
+Certificate :
+First and Last Name: Hops Healthcare
+
+Certificate fingerprints:
+MD5:  75:90:7E:C8:FA:F4:DC:94:0C:74:A9:9F:E7:B4:00:48
+SHA1: 25:F0:39:38:17:9C:54:DD:F6:8D:A2:BF:B0:D4:9A:1B:A2:5F:3B:96
+SHA256: 3A:AD:91:BE:D8:18:11:C9:87:DF:2E:C1:FC:F8:99:30:26:FB:71:1B:F3:DC:BB:C8:0A:8B:74:78:EB:F2:6F:15

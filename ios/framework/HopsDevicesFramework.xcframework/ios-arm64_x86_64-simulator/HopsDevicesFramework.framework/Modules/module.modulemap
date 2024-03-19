@@ -1,0 +1,11 @@
+framework module HopsDevicesFramework {
+  umbrella header "HopsDevicesFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module HopsDevicesFramework.Swift {
+    header "HopsDevicesFramework-Swift.h"
+    requires objc
+}

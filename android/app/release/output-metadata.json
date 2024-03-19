@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "healthcare.hops.stethoscope",
+  "variantName": "processReleaseResources",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 10002,
+      "versionName": "1.0.2",
+      "outputFile": "HopsDeviceApp-1.0.2-Feb 22, 2022.apk"
+    }
+  ]
+}

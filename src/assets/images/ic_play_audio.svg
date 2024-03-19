@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+    <g data-name="Play button in Audio List">
+        <g data-name="Ellipse 22" style="stroke:#6f8498;opacity:.1;fill:#6f8498">
+            <circle cx="18" cy="18" r="18" style="stroke:none"/>
+            <circle cx="18" cy="18" r="17.5" style="fill:none"/>
+        </g>
+        <path data-name="211876_play_icon" d="m106.9 70.158-9.813-6.041a.7.7 0 0 0-1.087.612v12.542a.716.716 0 0 0 .7.729.787.787 0 0 0 .395-.124l9.8-6.034a1.122 1.122 0 0 0 0-1.684z" transform="translate(-83 -53)" style="fill:#6f8498"/>
+    </g>
+</svg>

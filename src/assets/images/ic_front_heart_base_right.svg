@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="195" height="166" viewBox="0 0 185 168"
+>
+    <g data-name="Base Right (Aortic Area)">
+        <text data-name="Base Right(Aortic area)" transform="translate(66 6)" style="font-size:14px;fill:#0a090b;font-family:Poppins-SemiBold,Poppins;font-weight:600"><tspan x="-37.569" y="0">Base Right</tspan><tspan x="-46.277" y="15">(Aortic area)</tspan></text>
+        <g data-name="Ellipse 25" transform="translate(159 142)" style="fill:#6f8498;stroke:#fff;stroke-width:2px">
+            <circle cx="13" cy="13" r="13" style="stroke:none"/>
+            <circle cx="13" cy="13" r="12" style="fill:none"/>
+        </g>
+        <text data-name="1" transform="translate(172 160)" style="fill:#fff;font-family:Poppins-Medium,Poppins;font-weight:500;font-size:14px"><tspan x="-2.45" y="0">1</tspan></text>
+        <path data-name="Path 532" d="m9150.529-12385.414 150.357 3.562" transform="rotate(45 -10388.134 -17149.973)" style="stroke-linecap:round;stroke-linejoin:round;stroke-width:4px;fill:#febebc;stroke:#ffbebb"/>
+        <path d="M14.476 12.084 2.33.384a1.4 1.4 0 0 0-1.93 0 1.278 1.278 0 0 0 0 1.857l11.182 10.771L.4 23.784a1.279 1.279 0 0 0 0 1.858 1.4 1.4 0 0 0 1.931 0l12.146-11.7a1.292 1.292 0 0 0-.001-1.858z" transform="rotate(45 -70.839 260.544)" style="stroke-width:.5px;fill:#febebc;stroke:#ffbebb"/>
+    </g>
+</svg>

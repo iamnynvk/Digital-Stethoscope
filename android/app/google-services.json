@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1085113288056",
+    "firebase_url": "https://hops-stethoscope-default-rtdb.firebaseio.com",
+    "project_id": "hops-stethoscope",
+    "storage_bucket": "hops-stethoscope.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085113288056:android:65c2473f2200016477748d",
+        "android_client_info": {
+          "package_name": "healthcare.hops.stethoscope"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085113288056-jdicpmqukithmvaloa8egrq91cao8tfl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "healthcare.hops.stethoscope",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "1085113288056-jlde2s6s1vcqu53eog31bosip79sv0du.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKsZwao5EPdWjDvGLrAp1BCtWtS52pZro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1085113288056-jlde2s6s1vcqu53eog31bosip79sv0du.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

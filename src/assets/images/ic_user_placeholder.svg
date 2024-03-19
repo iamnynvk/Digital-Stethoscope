@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" viewBox="0 0 140 140">
+    <defs>
+        <clipPath id="clip-path">
+            <rect id="Rectangle_393" data-name="Rectangle 393" width="140" height="140" rx="70" transform="translate(144 166)" style="fill:#fff;stroke:#dedede;stroke-width:2px"/>
+        </clipPath>
+        <style>
+            .cls-4{fill:#6f8498}
+        </style>
+    </defs>
+    <g id="User_Icon" data-name="User Icon" transform="translate(-144 -166)">
+        <g id="Mask_Group_19" data-name="Mask Group 19" style="clip-path:url(#clip-path)">
+            <g id="_285645_user_icon" data-name="285645_user_icon" transform="translate(139.154 -7016.557)">
+                <path id="Path_2048" data-name="Path 2048" d="M53.369 7287.7a54.31 54.31 0 0 0-31.932 43.623 11.655 11.655 0 0 0 11.578 11.951h83.659a11.656 11.656 0 0 0 11.581-11.951 54.323 54.323 0 0 0-31.934-43.623c-3.878 7.769-12.017 13.745-21.476 13.745s-17.6-5.976-21.476-13.745z" transform="translate(0 -10.961)" style="fill:#2c3e50"/>
+                <path id="Path_2049" data-name="Path 2049" class="cls-4" d="M108.756 22.878A29.878 29.878 0 1 1 78.878-7a29.878 29.878 0 0 1 29.878 29.878z" transform="translate(-4.033 7219.8)"/>
+                <path id="Path_2050" data-name="Path 2050" class="cls-4" d="M74.845 77a53.748 53.748 0 0 0-53.407 47.805 11.636 11.636 0 0 0 11.578 11.951h83.659a11.637 11.637 0 0 0 11.581-11.951A53.751 53.751 0 0 0 74.845 77z" transform="translate(0 7189.581)"/>
+            </g>
+        </g>
+    </g>
+</svg>
